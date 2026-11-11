@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1448" height="1086" viewBox="0 0 1448 1086" version="1.1" id="editable-haptic-pyramid" role="img" aria-label="Six Grand Challenges in Haptic Technology: Pyramid Structure">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fdfefe"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6fbff"/>
+      <stop offset="52%" stop-color="#eaf5ff"/>
+      <stop offset="100%" stop-color="#f1f9ff"/>
+    </linearGradient>
+    <radialGradient id="foundation" cx="50%" cy="45%" r="72%">
+      <stop offset="0%" stop-color="#fff3f6"/>
+      <stop offset="55%" stop-color="#fff3f6"/>
+      <stop offset="100%" stop-color="#ffe7ed"/>
+    </radialGradient>
+    <radialGradient id="interaction" cx="50%" cy="45%" r="72%">
+      <stop offset="0%" stop-color="#fffbf4"/>
+      <stop offset="58%" stop-color="#fff4e8"/>
+      <stop offset="100%" stop-color="#ffe2c4"/>
+    </radialGradient>
+    <radialGradient id="content" cx="50%" cy="45%" r="72%">
+      <stop offset="0%" stop-color="#f6fff7"/>
+      <stop offset="62%" stop-color="#eaffec"/>
+      <stop offset="100%" stop-color="#d4efdb"/>
+    </radialGradient>
+    <radialGradient id="deployment" cx="50%" cy="45%" r="72%">
+      <stop offset="0%" stop-color="#e5f3ff"/>
+      <stop offset="55%" stop-color="#dcefff"/>
+      <stop offset="100%" stop-color="#b8dfff"/>
+    </radialGradient>
+    <linearGradient id="pill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dcecff"/>
+      <stop offset="100%" stop-color="#cde1fa"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#abd3ff"/>
+      <stop offset="45%" stop-color="#4388de"/>
+      <stop offset="100%" stop-color="#1866c5"/>
+    </linearGradient>
+    <linearGradient id="blue-panel-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#dcecff"/>
+    </linearGradient>
+    <linearGradient id="badge-blue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#078aff"/>
+      <stop offset="100%" stop-color="#075bd7"/>
+    </linearGradient>
+    <linearGradient id="badge-green" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1db13b"/>
+      <stop offset="100%" stop-color="#087e1c"/>
+    </linearGradient>
+    <linearGradient id="badge-orange" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff8a00"/>
+      <stop offset="100%" stop-color="#ff6400"/>
+    </linearGradient>
+    <linearGradient id="badge-red" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff3451"/>
+      <stop offset="100%" stop-color="#ef0028"/>
+    </linearGradient>
+  </defs>
+  <g id="background" inkscape:groupmode="layer" inkscape:label="01 · Canvas">
+    <rect x="0" y="0" width="1448" height="1086" fill="url(#bg)"/>
+  </g>
+  <g id="heading" inkscape:groupmode="layer" inkscape:label="02 · Title and Subtitle">
+    <text x="724" y="57" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="44" font-weight="800" fill="#082855" text-anchor="middle" letter-spacing="-0.9" textLength="1177" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Six Grand Challenges in Haptic Technology: Pyramid Structure</text>
+    <text x="724" y="97" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="29" font-weight="400" fill="#475b7c" text-anchor="middle" letter-spacing="-0.4" textLength="1124" lengthAdjust="spacingAndGlyphs" xml:space="preserve">From human mechanisms to system deployment, with evaluation and validation across all levels</text>
+  </g>
+  <g id="guide-lines" inkscape:groupmode="layer" inkscape:label="03 · Side Leader Guides">
+    <line x1="258" y1="246" x2="609" y2="246" stroke="#98cfff" stroke-width="1.55" stroke-dasharray="7,5"/>
+    <line x1="782" y1="170" x2="1181" y2="170" stroke="#9fd0ff" stroke-width="1.55" stroke-dasharray="7,5"/>
+    <line x1="940" y1="380" x2="1178" y2="380" stroke="#9fd0ff" stroke-width="1.55" stroke-dasharray="7,5"/>
+    <line x1="213" y1="435" x2="495" y2="435" stroke="#a7d6a9" stroke-width="1.55" stroke-dasharray="7,5"/>
+    <line x1="1069" y1="571" x2="1178" y2="571" stroke="#b5dcb5" stroke-width="1.55" stroke-dasharray="7,5"/>
+    <line x1="236" y1="627" x2="384" y2="627" stroke="#ffc18a" stroke-width="1.55" stroke-dasharray="7,5"/>
+    <line x1="233" y1="801" x2="278" y2="801" stroke="#f9a2a9" stroke-width="1.55" stroke-dasharray="7,5"/>
+    <circle cx="256" cy="246" r="5.6" fill="#2e8af2"/>
+    <circle cx="209" cy="435" r="5.6" fill="#239633"/>
+    <circle cx="237" cy="627" r="5.6" fill="#ff7d15"/>
+    <circle cx="234" cy="800" r="5.6" fill="#f02c4e"/>
+  </g>
+  <g id="evaluation-panel" inkscape:groupmode="layer" inkscape:label="04 · Haptic Evaluation and Validation">
+    <rect x="1178" y="151" width="246" height="735" fill="url(#blue-panel-bg)" opacity="0.76" id="evaluation-rear-panel" stroke="#93c7fe" stroke-width="1.25" rx="17"/>
+    <rect x="1244" y="151" width="187" height="735" fill="url(#panel)" id="evaluation-main-panel" stroke="#93c7fe" stroke-width="1.4" rx="17"/>
+    <path d="M1211 165 L1228 193 L1218 193 L1218 758 L1228 758 L1211 786 L1195 758 L1204 758 L1204 193 L1195 193 Z" fill="url(#arrow)" id="evaluation-vertical-double-arrow"/>
+    <g id="challenge-5-badge">
+      <circle cx="1338" cy="254" r="27" fill="url(#badge-blue)" stroke="white" stroke-width="1"/>
+      <text x="1338" y="264.26" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="34.29" font-weight="700" fill="white" text-anchor="middle" xml:space="preserve">5</text>
+    </g>
+    <text x="1338" y="327" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="29" font-weight="700" fill="#07285a" text-anchor="middle" xml:space="preserve">Haptic</text>
+    <text x="1338" y="362" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="29" font-weight="700" fill="#07285a" text-anchor="middle" xml:space="preserve">Evaluation</text>
+    <text x="1338" y="396" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="29" font-weight="700" fill="#07285a" text-anchor="middle" xml:space="preserve">and Validation</text>
+    <text x="1338" y="430" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="24" font-weight="400" fill="#4a6083" text-anchor="middle" xml:space="preserve">across all levels</text>
+    <line x1="1268" y1="457" x2="1409" y2="457" stroke="#81a9da" stroke-width="1.4"/>
+    <rect x="1253" y="482" width="171" height="69" fill="url(#pill)" opacity="0.81" id="evaluation-pill-0" rx="34"/>
+    <text x="1328" y="524" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="21" font-weight="400" fill="#0a2a64" xml:space="preserve">Physical</text>
+    <rect x="1253" y="569" width="171" height="69" fill="url(#pill)" opacity="0.81" id="evaluation-pill-1" rx="34"/>
+    <text x="1328" y="611" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="21" font-weight="400" fill="#0a2a64" xml:space="preserve">Perceptual</text>
+    <rect x="1253" y="654" width="171" height="69" fill="url(#pill)" opacity="0.81" id="evaluation-pill-2" rx="34"/>
+    <text x="1324" y="696" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="19" font-weight="400" fill="#0a2a64" xml:space="preserve">Experiential</text>
+    <rect x="1253" y="740" width="171" height="69" fill="url(#pill)" opacity="0.81" id="evaluation-pill-3" rx="34"/>
+    <text x="1328" y="782" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="21" font-weight="400" fill="#0a2a64" xml:space="preserve">Task</text>
+    <g id="evaluation-category-icons" fill="none" stroke="#062e6b" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="1274" y="516" width="6" height="14" fill="#052f72" rx="1.5"/>
+      <rect x="1286" y="507" width="6" height="23" fill="#052f72" rx="1.5"/>
+      <rect x="1299" y="496" width="6" height="34" fill="#052f72" rx="1.5"/>
+      <path d="M1267 602 Q1289 576 1310 602 Q1289 629 1267 602 Z" fill="none" stroke="#0c3672" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="1289" cy="602" r="6.4" fill="none" stroke="#0c3672" stroke-width="3.1"/>
+      <path d="M1287 670 C1279 664 1271 669 1272 677 C1263 677 1263 687 1270 689 C1264 697 1272 705 1280 701 C1284 708 1292 706 1292 700 L1292 677 C1292 673 1290 671 1287 670 Z" fill="none"/>
+      <path d="M1294 670 C1303 663 1311 669 1310 677 C1319 676 1319 686 1312 690 C1317 699 1309 705 1301 701 C1298 707 1292 704 1292 700" fill="none"/>
+      <path d="M1283 674 Q1278 678 1284 682 M1277 688 Q1284 686 1285 694 M1303 675 Q1308 678 1303 682 M1309 688 Q1301 686 1301 696 M1292 672 L1292 700" fill="none"/>
+      <rect x="1276" y="755" width="33" height="34" fill="none" stroke="#092d69" stroke-width="3" rx="3"/>
+      <path d="M1283 772 l7 7 l13 -15" fill="none" stroke="#092d69" stroke-width="3.1" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+  </g>
+  <g id="pyramid-structure" inkscape:groupmode="layer" inkscape:label="06 · Pyramid Structures">
+    <g id="foundation-layer">
+      <path d="M263,753 L1183,753 L1307,944 L142,944 Z" fill="url(#foundation)" stroke="#f4153c" stroke-width="4.25" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g id="interaction-layer">
+      <path d="M383,577 L1064,577 L1178,746 L270,746 Z" fill="url(#interaction)" stroke="#ff7800" stroke-width="4.1" stroke-linejoin="round" stroke-linecap="round"/>
+      <line x1="724" y1="582" x2="724" y2="744" stroke="#ff7818" stroke-width="2.1"/>
+    </g>
+    <g id="content-layer">
+      <path d="M527,378 L923,378 L1058,568 L392,568 Z" fill="url(#content)" stroke="#208c2c" stroke-width="4.0" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g id="deployment-layer">
+      <path d="M724,122 L532,369 L916,369 Z" fill="url(#deployment)" stroke="#1682fa" stroke-width="4.0" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    <g id="stack-progression-arrows">
+      <path d="M724,706.0 L755,737.0 L739,737.0 L739,748.0 L709,748.0 L709,737.0 L693,737.0 Z" fill="url(#arrow)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" id="foundation-to-interaction"/>
+      <path d="M724,533.5 L753,564.0 L739,564.0 L739,574.5 L709,574.5 L709,564.0 L695,564.0 Z" fill="url(#arrow)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" id="interaction-to-content"/>
+      <path d="M724,333.5 L752,366.0 L739,366.0 L739,378.5 L709,378.5 L709,366.0 L696,366.0 Z" fill="url(#arrow)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" id="content-to-deployment"/>
+    </g>
+  </g>
+  <g id="pictograms" inkscape:groupmode="layer" inkscape:label="07 · Editable Vector Pictograms">
+    <g id="system-deployment-globe-cloud" fill="#063c86" stroke="none">
+      <path d="M758,244 L750,242 L743,245 L738,251 L734,250 L727,254 L725,258 L725,262 L728,268 L725,271 L725,278 L726,279 L725,287 L728,291 L730,292 L765,292 L770,289 L770,281 L769,280 L770,279 L770,270 L768,267 L771,262 L770,256 L766,252 L764,252 L762,248Z M728,288 L729,285 L732,285 L733,286 L735,285 L760,285 L761,287 L764,285 L767,285 L768,286 L766,289 L729,289Z M728,281 L729,280 L766,280 L767,282 L766,283 L730,283Z M762,275 L763,274 L765,274 L766,273 L768,275 L768,276 L766,278 L764,278 L762,276Z M728,274 L729,273 L730,274 L761,274 L762,276 L760,278 L735,278 L734,277 L729,278 L728,277Z M729,270 L732,268 L763,268 L765,269 L766,271 L765,272 L730,272Z M728,258 L733,253 L740,254 L741,251 L746,246 L754,245 L760,250 L761,254 L764,254 L768,258 L768,262 L764,266 L732,266 L728,263Z M724,212 L711,213 L698,219 L688,230 L685,236 L683,244 L684,259 L690,271 L701,281 L715,286 L719,286 L719,283 L716,283 L713,280 L709,272 L707,264 L709,262 L719,262 L719,260 L707,260 L706,259 L706,240 L708,237 L730,237 L732,236 L734,239 L734,242 L736,242 L737,241 L736,237 L739,235 L747,235 L749,234 L751,237 L754,237 L749,227 L741,219 L734,215Z M690,266 L692,264 L704,263 L707,271 L707,274 L710,280 L707,281 L700,277Z M689,235 L702,236 L704,238 L703,242 L703,257 L704,259 L703,260 L694,261 L690,263 L688,261 L686,256 L686,243Z M729,218 L732,217 L739,221 L748,230 L748,231 L744,233 L736,233 L734,230 L731,220Z M712,217 L707,225 L704,234 L698,234 L697,233 L692,233 L691,232 L692,229 L700,221 L710,216Z M707,233 L713,219 L717,215 L725,216 L728,220 L732,230 L731,234 L726,234 L725,235 L709,235Z" fill="#063c86" fill-rule="evenodd" id="system-deployment-globe-cloud-combined-editable-path"/>
+    </g>
+    <g id="content-ecosystem-icons" fill="#096721" stroke="none">
+      <path d="M706,470 L706,472 L707,472 L709,469 L711,471 L715,479 L720,484 L720,485 L725,489 L736,495 L742,497 L747,497 L748,498 L760,498 L761,497 L766,497 L772,495 L783,489 L793,479 L796,474 L796,472 L795,472 L792,477 L785,485 L772,493 L766,495 L761,495 L760,496 L747,496 L746,495 L739,494 L727,488 L714,474 L712,469 L713,468 L716,468 L715,466 L709,464Z M755,433 L734,445 L734,469 L754,481 L774,470 L774,444Z M771,448 L772,449 L772,468 L765,473 L756,477 L755,476 L755,458Z M737,448 L750,455 L753,458 L753,476 L752,477 L736,468 L736,449Z M738,445 L753,436 L756,436 L768,443 L770,446 L759,453 L753,455 L741,447 L739,447Z M806,420 L806,461 L808,464 L832,464 L833,465 L832,469 L830,471 L824,471 L824,473 L851,473 L852,472 L851,471 L845,471 L843,469 L842,465 L843,464 L868,464 L870,462 L870,420 L867,418 L809,418Z M835,465 L836,464 L839,464 L841,467 L841,470 L840,471 L835,471 L834,470Z M808,422 L810,420 L866,420 L868,422 L868,458 L867,459 L809,459 L808,458Z M662,418 L660,421 L661,423 L660,424 L660,437 L661,435 L662,436 L662,440 L661,441 L661,463 L662,464 L696,464 L698,462 L698,429 L688,418Z M687,423 L688,422 L689,422 L694,427 L694,428 L693,429 L688,429 L687,428Z M664,420 L684,420 L685,421 L685,429 L687,431 L695,431 L696,432 L696,461 L695,462 L691,463 L690,462 L683,462 L682,463 L681,462 L666,462 L665,463 L662,461 L662,422Z M669,453 L669,454 L682,454 L682,453Z M669,447 L689,447 L690,446 L680,446 L679,445 L673,445 L672,446 L671,446 L670,445 L669,446Z M669,438 L669,439 L670,440 L689,440 L690,439 L690,438Z M669,431 L669,432 L678,432 L678,431Z M664,419 L665,418 L678,418 L679,419 L678,420 L665,420Z M727,410 L724,410 L722,412 L721,412 L714,419 L714,420 L711,424 L712,425 L713,425 L714,424 L714,423 L717,420 L717,419 L723,413 L724,413Z M737,403 L737,405 L743,403 L748,403 L749,402 L765,403 L774,406 L776,408 L781,410 L788,416 L787,418 L784,419 L793,421 L793,415 L792,412 L791,412 L791,414 L789,415 L781,408 L768,402 L759,401 L758,400 L749,400 L748,401 L743,401Z" fill="#096721" fill-rule="evenodd" id="content-ecosystem-icons-combined-editable-path"/>
+    </g>
+    <g id="wearable-haptic-hand" fill="#f94b0f" stroke="none">
+      <path d="M515,627 L511,633 L511,645 L514,650 L516,651 L517,649 L514,644 L514,641 L513,640 L514,633 L517,629 L517,628Z M511,621 L508,622 L503,632 L503,646 L507,654 L510,657 L512,655 L507,648 L505,637 L506,636 L507,630 L512,622Z M622,605 L616,600 L600,599 L588,604 L572,615 L565,616 L561,618 L554,614 L545,614 L537,617 L531,624 L527,625 L527,628 L547,623 L548,624 L547,628 L549,633 L551,648 L555,653 L553,657 L532,663 L529,665 L529,667 L535,666 L540,669 L554,668 L559,666 L567,656 L570,656 L574,654 L583,654 L594,658 L602,658 L619,652 L628,651 L633,645 L633,640 L631,637 L632,628 L628,623 L629,620 L627,614 L622,610Z M563,652 L564,654 L561,660 L558,663 L553,665 L552,664 L555,661 L557,655 L559,653Z M563,621 L567,626 L569,646 L565,649 L556,650 L553,643 L551,625 L553,623 L562,622Z M540,620 L541,619 L543,619 L544,620 L543,621 L541,621Z M548,617 L549,616 L551,616 L552,617 L554,617 L556,619 L555,620 L553,620 L552,621 L550,619 L549,619 L548,618Z M619,606 L618,610 L612,610 L612,612 L613,613 L620,613 L626,619 L624,622 L617,622 L616,623 L618,625 L625,625 L629,629 L629,633 L627,635 L619,635 L620,638 L628,638 L629,639 L630,645 L627,648 L612,651 L599,656 L584,651 L574,651 L569,653 L567,652 L572,647 L572,639 L571,638 L570,627 L567,620 L569,618 L575,617 L589,607 L603,601 L615,603Z" fill="#f94b0f" fill-rule="evenodd" id="wearable-haptic-hand-combined-editable-path"/>
+    </g>
+    <g id="barehand-haptic-hand" fill="#f94b0f" stroke="none">
+      <path d="M1002,624 L1000,624 L1000,627 L1003,631 L1003,634 L1004,635 L1004,643 L1002,648 L999,652 L1001,654 L1005,649 L1005,647 L1007,644 L1007,634Z M923,624 L920,628 L918,633 L918,644 L921,651 L923,653 L925,653 L925,651 L921,645 L921,641 L920,640 L921,632 L925,626 L925,624Z M917,617 L914,621 L910,630 L909,643 L913,655 L917,660 L919,660 L920,659 L916,654 L912,644 L912,633 L916,623 L920,619 L920,617Z M1007,616 L1005,617 L1005,619 L1008,622 L1011,628 L1012,635 L1013,636 L1013,641 L1012,642 L1011,649 L1008,655 L1005,658 L1006,661 L1008,660 L1011,656 L1015,647 L1015,631 L1014,630 L1014,627 L1011,621Z M962,594 L957,598 L955,604 L952,601 L948,601 L944,605 L944,637 L943,638 L939,634 L935,633 L931,636 L931,642 L934,646 L939,658 L948,668 L948,674 L951,675 L951,667 L942,657 L933,638 L935,636 L937,636 L945,646 L947,645 L947,606 L950,603 L953,606 L954,627 L956,631 L958,630 L959,600 L961,598 L964,598 L966,602 L966,609 L965,610 L966,628 L965,629 L966,631 L968,631 L969,630 L972,605 L975,603 L978,607 L977,609 L977,619 L976,620 L976,630 L975,631 L976,635 L978,635 L982,620 L985,617 L988,619 L982,655 L979,662 L975,667 L975,674 L977,675 L978,674 L978,668 L982,663 L986,651 L986,645 L990,629 L991,618 L987,614 L985,614 L981,617 L980,616 L980,604 L979,602 L972,601 L969,604 L968,603 L968,598 L965,595Z" fill="#f94b0f" fill-rule="evenodd" id="barehand-haptic-hand-combined-editable-path"/>
+    </g>
+    <g id="physical-contact-model" fill="#ed1038" stroke="none">
+      <path d="M432,861 L433,862 L433,869 L432,871 L435,874 L561,874 L564,872 L564,860 L547,843 L535,843 L534,842 L534,832 L532,830 L465,830 L462,834 L462,840 L463,841 L461,843 L450,843Z M435,863 L437,861 L560,861 L561,862 L561,870 L560,871 L436,871 L435,870Z M438,858 L452,845 L454,846 L461,845 L463,847 L462,850 L464,853 L533,853 L534,852 L534,847 L536,845 L545,845 L558,857 L557,859 L439,859Z M465,834 L467,832 L530,832 L532,834 L532,849 L530,851 L466,851 L465,850Z M498,791 L497,792 L497,816 L496,817 L491,812 L488,813 L498,824 L500,824 L509,813 L506,812 L501,817 L500,816 L500,792Z" fill="#ed1038" fill-rule="evenodd" id="physical-contact-model-combined-editable-path"/>
+    </g>
+    <g id="physiology-brain-model" fill="#e60b38" stroke="none">
+      <path d="M721,815 L719,817 L713,818 L708,823 L705,832 L706,835 L710,839 L714,839 L719,843 L725,843 L732,851 L733,858 L731,864 L731,869 L733,869 L734,865 L734,851 L731,844 L735,841 L731,841 L728,843 L726,841 L730,838 L735,838 L742,841 L744,843 L744,845 L742,847 L739,848 L737,846 L740,843 L736,843 L734,845 L736,849 L742,850 L746,847 L746,842 L750,839 L749,835 L750,830 L747,827 L746,822 L742,820 L738,816Z M731,821 L732,822 L732,825 L731,826 L729,823Z M708,830 L712,829 L712,827 L710,825 L716,819 L718,821 L718,823 L721,824 L721,818 L722,817 L724,817 L725,819 L728,817 L731,818 L728,823 L728,826 L727,827 L723,826 L723,830 L728,830 L732,827 L734,828 L735,824 L737,822 L736,821 L734,822 L733,820 L736,818 L745,825 L747,832 L745,834 L743,834 L742,833 L743,827 L740,824 L738,824 L738,826 L735,831 L731,830 L728,833 L722,833 L720,835 L720,837 L723,838 L731,832 L734,834 L737,834 L740,831 L740,829 L738,827 L741,826 L742,827 L741,834 L748,838 L746,840 L743,839 L740,836 L731,836 L727,837 L723,841 L720,841 L716,836 L721,831 L720,827 L718,827 L717,829 L715,827 L716,830 L715,833 L712,831 L711,832 L712,834 L715,835 L713,837 L711,837 L708,834Z M711,811 L701,821 L698,829 L698,840 L692,849 L692,851 L697,855 L699,863 L699,869 L703,872 L713,871 L715,874 L715,878 L718,879 L717,873 L714,869 L706,869 L705,870 L701,867 L701,862 L700,861 L701,858 L699,857 L699,852 L696,851 L695,849 L701,839 L700,837 L701,827 L704,821 L711,814 L720,810 L726,810 L727,809 L735,810 L744,814 L751,821 L755,830 L755,840 L753,847 L746,856 L744,861 L745,874 L748,879 L749,876 L746,867 L747,860 L756,846 L758,837 L757,828 L754,821 L747,813 L737,808 L722,807Z" fill="#e60b38" fill-rule="evenodd" id="physiology-brain-model-combined-editable-path"/>
+    </g>
+    <g id="perception-eye-signal-model" fill="#f0103e" stroke="none">
+      <path d="M942,827 L938,829 L933,835 L932,839 L933,846 L938,852 L942,854 L950,854 L954,852 L958,848 L960,844 L960,837 L958,833 L954,829 L950,827Z M944,833 L948,833 L950,834 L953,838 L953,844 L948,848 L944,848 L942,847 L939,843 L939,838 L940,836Z M910,840 L911,843 L921,852 L931,858 L941,861 L951,861 L961,858 L970,853 L978,846 L977,844 L975,844 L964,853 L955,857 L941,858 L928,853 L914,841 L920,834 L928,828 L935,825 L944,823 L949,823 L960,826 L975,837 L977,836 L968,827 L958,822 L949,820 L943,820 L934,822 L920,830Z M1004,813 L997,840 L996,841 L990,835 L985,842 L987,843 L991,839 L994,845 L997,847 L999,845 L1003,831 L1003,827 L1005,823 L1008,833 L1008,838 L1011,849 L1013,865 L1016,866 L1024,835 L1025,834 L1026,835 L1029,845 L1031,847 L1033,847 L1036,844 L1039,843 L1039,841 L1036,840 L1032,843 L1027,829 L1024,826 L1022,829 L1017,852 L1015,855 L1013,849 L1012,838 L1011,837 L1007,814Z" fill="#f0103e" fill-rule="evenodd" id="perception-eye-signal-model-combined-editable-path"/>
+    </g>
+    <g id="manual-icon-fidelity-repairs" fill="none" stroke="#096721" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M643.5 415 L643.5 410 Q643.5 406.5 647 406.5 L660 406.5" fill="none" stroke="#096721" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M643.5 417 L643.5 438" fill="none" stroke="#096721" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+  </g>
+  <g id="challenge-numbers" inkscape:groupmode="layer" inkscape:label="08 · Challenge Number Badges">
+    <g id="challenge-1-badge">
+      <circle cx="350" cy="807" r="25" fill="url(#badge-red)" stroke="white" stroke-width="1"/>
+      <text x="350" y="816.5" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="31.75" font-weight="700" fill="white" text-anchor="middle" xml:space="preserve">1</text>
+    </g>
+    <g id="challenge-2-badge">
+      <circle cx="448" cy="615" r="24" fill="url(#badge-orange)" stroke="white" stroke-width="1"/>
+      <text x="448" y="624.12" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="30.48" font-weight="700" fill="white" text-anchor="middle" xml:space="preserve">2</text>
+    </g>
+    <g id="challenge-3-badge">
+      <circle cx="838" cy="615" r="24" fill="url(#badge-orange)" stroke="white" stroke-width="1"/>
+      <text x="838" y="624.12" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="30.48" font-weight="700" fill="white" text-anchor="middle" xml:space="preserve">3</text>
+    </g>
+    <g id="challenge-4-badge">
+      <circle cx="593" cy="438" r="25" fill="url(#badge-green)" stroke="white" stroke-width="1"/>
+      <text x="593" y="447.5" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="31.75" font-weight="700" fill="white" text-anchor="middle" xml:space="preserve">4</text>
+    </g>
+    <g id="challenge-6-badge">
+      <circle cx="725" cy="179" r="24" fill="url(#badge-blue)" stroke="white" stroke-width="1"/>
+      <text x="725" y="188.12" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="30.48" font-weight="700" fill="white" text-anchor="middle" xml:space="preserve">6</text>
+    </g>
+  </g>
+  <g id="pyramid-labels" inkscape:groupmode="layer" inkscape:label="09 · Editable Labels">
+    <text x="724" y="320" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="27" font-weight="700" fill="#062653" text-anchor="middle" xml:space="preserve">System Deployment</text>
+    <text x="724" y="345" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="21" font-weight="400" fill="#103663" text-anchor="middle" xml:space="preserve">system deployment and real-world use</text>
+    <text x="734" y="525" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="28" font-weight="700" fill="#053049" text-anchor="middle" xml:space="preserve">Haptic Content Generation and Rendering</text>
+    <text x="734" y="550" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="21" font-weight="400" fill="#315574" text-anchor="middle" xml:space="preserve">content and computation layer</text>
+    <text x="532" y="698" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="25" font-weight="700" fill="#062657" text-anchor="middle" xml:space="preserve">Wearable Haptic Feedback</text>
+    <text x="532" y="725" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="20" font-weight="400" fill="#375778" text-anchor="middle" xml:space="preserve">wearable interaction pathway</text>
+    <text x="934" y="698" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="25" font-weight="700" fill="#062657" text-anchor="middle" xml:space="preserve">Bare-hand Haptic Feedback</text>
+    <text x="934" y="725" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="20" font-weight="400" fill="#375778" text-anchor="middle" xml:space="preserve">natural interaction pathway</text>
+    <text x="724" y="793" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="27" font-weight="700" fill="#082855" text-anchor="middle" xml:space="preserve">Modeling and Calibration</text>
+    <text x="499" y="906" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="20" font-weight="400" fill="#1a365d" text-anchor="middle" xml:space="preserve">physical model</text>
+    <text x="724" y="906" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="20" font-weight="400" fill="#1a365d" text-anchor="middle" xml:space="preserve">physiological model</text>
+    <text x="976" y="906" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="20" font-weight="400" fill="#1a365d" text-anchor="middle" xml:space="preserve">perceptual model</text>
+    <text x="724" y="935" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="20" font-weight="400" fill="#213960" text-anchor="middle" xml:space="preserve">physical model · physiological model · perceptual model</text>
+  </g>
+  <g id="layer-annotations" inkscape:groupmode="layer" inkscape:label="05 · Layer Descriptions">
+    <g id="annotation-deployment">
+      <text x="28" y="251" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="27" font-weight="700" fill="#042f73" xml:space="preserve">Deployment layer</text>
+      <text x="28" y="285" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="22" font-weight="400" fill="#536784" xml:space="preserve">real-world application</text>
+      <text x="28" y="313" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="22" font-weight="400" fill="#536784" xml:space="preserve">and scalable deployment</text>
+    </g>
+    <g id="annotation-content">
+      <text x="28" y="445" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="27" font-weight="700" fill="#056621" xml:space="preserve">Content layer</text>
+      <text x="28" y="479" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="22" font-weight="400" fill="#536784" xml:space="preserve">connect models, systems,</text>
+      <text x="28" y="507" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="22" font-weight="400" fill="#536784" xml:space="preserve">and haptic content</text>
+    </g>
+    <g id="annotation-interaction">
+      <text x="28" y="632" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="27" font-weight="700" fill="#ff7200" xml:space="preserve">Interaction layer</text>
+      <text x="28" y="666" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="22" font-weight="400" fill="#536784" xml:space="preserve">diverse human–machine</text>
+      <text x="28" y="694" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="22" font-weight="400" fill="#536784" xml:space="preserve">interaction pathways</text>
+    </g>
+    <g id="annotation-foundation">
+      <text x="29" y="809" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="27" font-weight="700" fill="#ff1a40" xml:space="preserve">Foundation layer</text>
+      <text x="29" y="843" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="22" font-weight="400" fill="#536784" xml:space="preserve">human touch mechanisms</text>
+      <text x="29" y="871" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="22" font-weight="400" fill="#536784" xml:space="preserve">and multimodal models</text>
+    </g>
+  </g>
+  <g id="logic-caption" inkscape:groupmode="layer" inkscape:label="10 · Bottom Logic Explanation">
+    <rect x="29" y="959" width="1390" height="111" fill="#f0f6fc" rx="16"/>
+    <text x="134" y="998" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="26" font-weight="700" fill="#062858" xml:space="preserve">Logic:</text>
+    <text x="221" y="999" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="22" font-weight="400" fill="#526683" xml:space="preserve">modeling and calibration provide the foundation; wearable and bare-hand feedback form interaction pathways;</text>
+    <text x="221" y="1027" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="22" font-weight="400" fill="#526683" xml:space="preserve">content generation and rendering connect models and systems; system deployment targets real-world use;</text>
+    <text x="221" y="1055" font-family="Roboto Condensed, Arial Narrow, sans-serif" font-size="22" font-weight="400" fill="#526683" xml:space="preserve">evaluation and validation span the full stack.</text>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f6f4ef">
+  <meta name="description" content="刘洋的 AIGC 视觉与设计实践作品集：科研视觉、游戏概念、机器人、项目实践与风格探索。">
+  <title>刘洋 — AIGC 视觉与设计实践</title>
+  <link rel="stylesheet" href="style.css?v=20261111-2">
+  <script src="app.js?v=20261111-admin" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#work">跳至作品</a>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="刘洋作品集首页"><span class="brand-mark" aria-hidden="true">L<span>Y</span></span><span id="brand-name">刘洋</span><span class="brand-caption">VISUAL PRACTICE</span></a>
+    <nav aria-label="主导航"><a class="nav-work" href="#work">作品 <span aria-hidden="true">↗</span></a><a href="#images">全部图像</a><a href="#about">关于</a></nav>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-heading">
+        <p class="eyebrow"><span class="small-dot" aria-hidden="true"></span> AIGC · DESIGN · EXPLORATION</p>
+        <h1 id="hero-title"><span class="hero-line">从想法，</span><span class="hero-line"><span class="hero-phrase">到<span class="serif-word">看得见</span></span><wbr><span class="hero-phrase">的作品<span class="title-dot">。</span></span></span></h1>
+        <div class="hero-bottom"><p id="hero-intro">我是刘洋。这是我在科研、游戏、机器人与项目实践中的 AIGC 视觉探索：从概念构思，到生成、修改与具体交付。</p><a class="round-link" href="#work" aria-label="浏览作品">↓</a></div>
+      </div>
+      <div class="hero-art" id="hero-art" aria-label="部分作品预览"><div class="hero-art-empty">视觉与设计实践<br><span>VISUAL ARCHIVE</span></div></div>
+      <div class="hero-caption"><span>刘洋 / AIGC 视觉与设计实践</span><span>作品 · 过程 · 产出</span></div>
+    </section>
+    <section class="works" id="work" aria-labelledby="works-title">
+      <div class="section-top"><div><p class="eyebrow">EXPLORE THE WORK</p><h2 id="works-title">按主题，走进我的工作<span>↘</span></h2></div><p class="collection-count" id="collection-count"></p></div>
+      <div class="view-switch" role="group" aria-label="浏览方式"><button id="view-projects" type="button" aria-pressed="true">按项目浏览</button><button id="view-all-media" type="button" aria-pressed="false">全部图像 <span id="all-media-count"></span></button></div>
+      <div class="filter-bar">
+        <div class="filter-tabs" id="filters" role="group" aria-label="按主题筛选"></div>
+        <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索项目或关键词" aria-label="搜索项目或关键词" autocomplete="off"><kbd aria-hidden="true">/</kbd></label>
+      </div>
+      <p id="result-announcement" class="visually-hidden" aria-live="polite"></p>
+      <div id="project-sections"><p class="loading">正在展开作品集…</p></div>
+      <section id="all-media-section" class="all-media-section" aria-label="全部已收录图像与视频" hidden><div class="archive-intro"><p>输入图片、参考素材、迭代版本与成图，按项目浏览。</p><p id="archive-total"></p></div><div id="archive-role-filters" class="role-filters" role="group" aria-label="按图像来源筛选"></div><p id="archive-progress" class="archive-progress" aria-live="polite"></p><div id="archive-grid" class="archive-grid"></div><div class="archive-load"><button id="archive-more" type="button">加载更多</button><p id="archive-complete"></p></div></section>
+    </section>
+    <section class="about" id="about" aria-labelledby="about-title">
+      <p class="eyebrow">ABOUT THIS PRACTICE</p>
+      <div class="about-main"><h2 id="about-title">以视觉，<br>回应具体的问题。</h2><div class="about-copy"><p>AIGC 是我的创作工具，也是一种把想法快速变成可讨论方案的方式。</p><p>这份作品集围绕具体任务展开：为什么做、我怎样执行，以及最终产出了什么。既呈现完成的作品，也保留有价值的版本探索。</p><div class="about-tags"><span>概念构思</span><span>视觉生成</span><span>迭代修改</span><span>设计交付</span></div></div></div>
+    </section>
+  </main>
+  <footer><a class="footer-brand" href="#">刘洋 <span>VISUAL PRACTICE</span></a><p>图像中的思考，实践中的答案。</p><a href="#" class="back-top">回到顶部 ↑</a></footer>
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="project-title">
+    <div class="detail-topbar"><a class="detail-brand" href="#work" id="detail-back">← 返回作品集</a><span id="detail-category"></span><button class="icon-btn close-detail" type="button" aria-label="关闭项目">✕</button></div>
+    <article id="project-detail"></article>
+  </dialog>
+  <dialog class="lightbox" id="lightbox" aria-labelledby="lightbox-caption">
+    <div class="lightbox-top"><span id="lightbox-count"></span><button class="icon-btn" id="lightbox-close" type="button" aria-label="关闭大图">✕</button></div>
+    <div class="lightbox-stage"><button class="lightbox-arrow" id="lightbox-prev" type="button" aria-label="上一项作品">←</button><img id="lightbox-image" alt=""><video id="lightbox-video" controls playsinline preload="metadata" hidden></video><button class="lightbox-arrow" id="lightbox-next" type="button" aria-label="下一项作品">→</button></div>
+    <div class="lightbox-bottom"><p id="lightbox-caption"></p><button id="lightbox-project" type="button">查看所属项目 ↗</button><a id="lightbox-original" href="#" target="_blank" rel="noopener">查看原尺寸 ↗</a></div>
+    <div class="lightbox-thumbnails" id="lightbox-thumbnails" aria-label="选择图片或视频"></div>
+  </dialog>
+</body>
+</html>

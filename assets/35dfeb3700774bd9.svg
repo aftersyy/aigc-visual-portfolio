@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1448" height="1086" viewBox="0 0 1448 1086">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>
+  .title { font-family: Arial, Helvetica, sans-serif; font-size: 27px; font-weight: 700; fill:#111827; }
+  .panelTitle { font-family: Arial, Helvetica, sans-serif; font-size: 19px; font-weight: 700; }
+  .boxTitle { font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: 700; fill:#13233f; }
+  .boxBody { font-family: Arial, Helvetica, sans-serif; font-size: 14px; fill:#40516b; }
+  .small { font-family: Arial, Helvetica, sans-serif; font-size: 13px; fill:#40516b; }
+  .evalTitle { font-family: Arial, Helvetica, sans-serif; font-size: 17px; font-weight:700; fill:#1d2b45; }
+  .evalBody { font-family: Arial, Helvetica, sans-serif; font-size: 13px; fill:#53627a; }
+  .sectionNum { font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight:700; fill:#ffffff; }
+</style>
+<circle cx="38" cy="43" r="26" fill="#000000"/>
+<text x="38" y="49" text-anchor="middle" class="sectionNum">B</text>
+<text x="725" y="48" text-anchor="middle" class="title">Challenge 5: Haptic modeling and device-agnostic rendering</text>
+<line x1="334" y1="103" x2="606" y2="103" stroke="#8a96a8" stroke-width="1.2"/>
+<text x="744" y="109" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" fill="#8a96a8" font-size="16" font-weight="700">Device-independent</text>
+<line x1="856" y1="103" x2="1172" y2="103" stroke="#8a96a8" stroke-width="1.2"/>
+<line x1="1189" y1="94" x2="1189" y2="112" stroke="#8a96a8" stroke-width="1.2"/>
+<line x1="1203" y1="94" x2="1203" y2="112" stroke="#8a96a8" stroke-width="1.2"/>
+<line x1="1205" y1="103" x2="1240" y2="103" stroke="#8a96a8" stroke-width="1.2"/>
+<text x="1336" y="109" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" fill="#66748a" font-size="16" font-weight="700">Device-specific</text>
+<rect x="17" y="136" width="272" height="711" rx="8" fill="#ffffff" stroke="#6f7b8c" stroke-width="1.2"/>
+<rect x="307" y="136" width="265" height="711" rx="8" fill="#ffffff" stroke="#6f7b8c" stroke-width="1.2"/>
+<rect x="586" y="136" width="300" height="711" rx="8" fill="#ffffff" stroke="#6f7b8c" stroke-width="1.2"/>
+<rect x="900" y="136" width="270" height="711" rx="8" fill="#ffffff" stroke="#6f7b8c" stroke-width="1.2"/>
+<rect x="1185" y="136" width="246" height="711" rx="8" fill="#ffffff" stroke="#6f7b8c" stroke-width="1.2"/>
+<circle cx="50" cy="166" r="19" fill="#3c4859"/>
+<text x="50" y="172" text-anchor="middle" class="sectionNum">1</text>
+<text x="108" y="174" text-anchor="start" class="panelTitle" fill="#0f5eb7">Grounding</text>
+<rect x="31" y="191" width="244" height="114" rx="9" fill="#ffffff" stroke="#d2d8e0" stroke-width="1.2"/>
+<polygon points="56,252 68,224 96,213 117,233 110,267 82,281 61,267" fill="#eef2f6" stroke="#243447" stroke-width="1.4"/>
+<polyline points="68,224 82,248 96,213 110,267 82,248 61,267" fill="none" stroke="#b3bcc8" stroke-width="1"/>
+<text x="139" y="227" text-anchor="start" class="boxTitle"><tspan x="139" dy="0">Object</tspan><tspan x="139" dy="19">properties</tspan></text>
+<text x="139" y="270" text-anchor="start" class="boxBody"><tspan x="139" dy="0">shape, material,</tspan><tspan x="139" dy="18">structure</tspan></text>
+<rect x="31" y="319" width="244" height="126" rx="9" fill="#ffffff" stroke="#d2d8e0" stroke-width="1.2"/>
+<path d="M50 387 C66 376 80 362 92 342 M91 342 C101 349 106 356 107 363 M63 393 L109 393" fill="none" stroke="#111827" stroke-width="2" stroke-linecap="round"/>
+<path d="M77 346 Q94 334 113 339" fill="none" stroke="#2f80ed" stroke-width="2"/>
+<polygon points="113,339 105,336 108,345" fill="#2f80ed"/>
+<text x="139" y="349" text-anchor="start" class="boxTitle"><tspan x="139" dy="0">Exploratory</tspan><tspan x="139" dy="19">actions</tspan></text>
+<text x="139" y="393" text-anchor="start" class="boxBody"><tspan x="139" dy="0">press, slide,</tspan><tspan x="139" dy="18">tap, grasp</tspan></text>
+<rect x="31" y="461" width="244" height="126" rx="9" fill="#ffffff" stroke="#d2d8e0" stroke-width="1.2"/>
+<path d="M45 536 C55 497 64 485 74 516 S93 562 108 530 S123 505 136 533" fill="none" stroke="#4a7ef0" stroke-width="2.2"/>
+<text x="139" y="492" text-anchor="start" class="boxTitle"><tspan x="139" dy="0">Contact</tspan><tspan x="139" dy="19">responses</tspan></text>
+<text x="139" y="536" text-anchor="start" class="boxBody"><tspan x="139" dy="0">force, vibration,</tspan><tspan x="139" dy="18">deformation</tspan></text>
+<rect x="31" y="601" width="244" height="126" rx="9" fill="#ffffff" stroke="#d2d8e0" stroke-width="1.2"/>
+<path d="M49 685 C48 651 61 629 83 624 C99 620 112 630 116 646 C119 659 109 666 103 673 L103 699 L89 699 L89 684 C78 683 70 678 67 667" fill="none" stroke="#111827" stroke-width="2"/>
+<text x="139" y="631" text-anchor="start" class="boxTitle"><tspan x="139" dy="0">Perceptual</tspan><tspan x="139" dy="19">targets</tspan></text>
+<text x="139" y="675" text-anchor="start" class="boxBody"><tspan x="139" dy="0">slippery, rough,</tspan><tspan x="139" dy="18">stiff, soft, etc.</tspan></text>
+<line x1="31" y1="739" x2="275" y2="739" stroke="#c7ced8" stroke-width="1"/>
+<rect x="46" y="759" width="46" height="33" rx="5" fill="#eef1f5" stroke="#49576a" stroke-width="1.5"/>
+<circle cx="69" cy="775" r="9" fill="none" stroke="#49576a" stroke-width="1.5"/>
+<rect x="92" y="768" width="14" height="14" rx="2" fill="#eef1f5" stroke="#49576a" stroke-width="1.5"/>
+<text x="121" y="764" text-anchor="start" class="small" font-weight="700"><tspan x="121" dy="0">Haptic camera /</tspan><tspan x="121" dy="18">multimodal measurement</tspan></text>
+<text x="121" y="808" text-anchor="start" class="small">haptic, visual, audio, ...</text>
+<circle cx="338" cy="166" r="19" fill="#3c4859"/>
+<text x="338" y="172" text-anchor="middle" class="sectionNum">2</text>
+<text x="397" y="174" text-anchor="start" class="panelTitle" fill="#7f34d1">Haptic modeling</text>
+<rect x="327" y="216" width="226" height="268" rx="9" fill="#ffffff" stroke="#2d7df6" stroke-width="1.8"/>
+<text x="349" y="252" text-anchor="start" class="boxTitle" fill="#1766cf"><tspan x="349" dy="0">Physics-informed</tspan><tspan x="349" dy="21">modeling</tspan></text>
+<text x="349" y="304" text-anchor="start" class="boxBody"><tspan x="349" dy="0">contact model,</tspan><tspan x="349" dy="21">dynamics, material</tspan><tspan x="349" dy="21">priors</tspan></text>
+<line x1="360" y1="428" x2="522" y2="428" stroke="#111827" stroke-width="2"/>
+<rect x="390" y="395" width="41" height="33" fill="#f8fafc" stroke="#111827" stroke-width="2"/>
+<polyline points="431,411 444,411 451,400 460,422 469,400 478,422 487,400 496,411 508,411" fill="none" stroke="#111827" stroke-width="2"/>
+<line x1="508" y1="389" x2="508" y2="438" stroke="#111827" stroke-width="2"/>
+<text x="450" y="390" text-anchor="start" font-family="Arial, Helvetica, sans-serif" fill="#111827" font-size="18" font-weight="700">k</text>
+<rect x="327" y="505" width="226" height="290" rx="9" fill="#ffffff" stroke="#8c49e9" stroke-width="1.8"/>
+<text x="348" y="546" text-anchor="start" class="boxTitle" fill="#7c35cf"><tspan x="348" dy="0">Data-driven /</tspan><tspan x="348" dy="21">generative modeling</tspan></text>
+<text x="348" y="596" text-anchor="start" class="boxBody"><tspan x="348" dy="0">haptic, visual, textual,</tspan><tspan x="348" dy="21">multimodal data</tspan></text>
+<circle cx="374" cy="690" r="7" fill="#ffffff" stroke="#2d3b8f" stroke-width="2"/>
+<circle cx="374" cy="738" r="7" fill="#ffffff" stroke="#2d3b8f" stroke-width="2"/>
+<circle cx="423" cy="665" r="7" fill="#ffffff" stroke="#2d3b8f" stroke-width="2"/>
+<circle cx="423" cy="714" r="7" fill="#ffffff" stroke="#2d3b8f" stroke-width="2"/>
+<circle cx="423" cy="763" r="7" fill="#ffffff" stroke="#2d3b8f" stroke-width="2"/>
+<circle cx="474" cy="690" r="7" fill="#ffffff" stroke="#2d3b8f" stroke-width="2"/>
+<circle cx="474" cy="738" r="7" fill="#ffffff" stroke="#2d3b8f" stroke-width="2"/>
+<line x1="374" y1="690" x2="423" y2="665" stroke="#2d3b8f" stroke-width="1.5"/>
+<line x1="374" y1="690" x2="423" y2="714" stroke="#2d3b8f" stroke-width="1.5"/>
+<line x1="374" y1="738" x2="423" y2="714" stroke="#2d3b8f" stroke-width="1.5"/>
+<line x1="374" y1="738" x2="423" y2="763" stroke="#2d3b8f" stroke-width="1.5"/>
+<line x1="423" y1="665" x2="474" y2="690" stroke="#2d3b8f" stroke-width="1.5"/>
+<line x1="423" y1="714" x2="474" y2="690" stroke="#2d3b8f" stroke-width="1.5"/>
+<line x1="423" y1="714" x2="474" y2="738" stroke="#2d3b8f" stroke-width="1.5"/>
+<line x1="423" y1="763" x2="474" y2="738" stroke="#2d3b8f" stroke-width="1.5"/>
+<path d="M555 372 C568 372 568 372 568 418 L568 714 C568 751 568 751 555 751" fill="none" stroke="#5b6676" stroke-width="2"/>
+<line x1="568" y1="502" x2="584" y2="502" stroke="#5b6676" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="584,502 575.6,505.3 575.6,498.7" fill="#5b6676"/>
+<circle cx="618" cy="166" r="19" fill="#3c4859"/>
+<text x="618" y="172" text-anchor="middle" class="sectionNum">3</text>
+<text x="686" y="174" text-anchor="start" class="panelTitle" fill="#ec4a14">Canonical haptic asset</text>
+<text x="735" y="227" text-anchor="middle" class="panelTitle" fill="#e74b19">Device-independent</text>
+<text x="735" y="250" text-anchor="middle" class="panelTitle" fill="#e74b19">representation</text>
+<rect x="606" y="275" width="260" height="96" rx="9" fill="#dbe9fb" stroke="#77a8e7" stroke-width="1.2"/>
+<rect x="606" y="385" width="260" height="96" rx="9" fill="#f4ebff" stroke="#b67be7" stroke-width="1.2"/>
+<rect x="606" y="495" width="260" height="96" rx="9" fill="#fff0e7" stroke="#f2a16c" stroke-width="1.2"/>
+<rect x="606" y="605" width="260" height="96" rx="9" fill="#f8fafc" stroke="#c7ccd3" stroke-width="1.2"/>
+<polygon points="635,314 654,303 673,314 654,325" fill="#eef6ff" stroke="#2f6fbc" stroke-width="1.5"/>
+<polygon points="635,314 654,325 654,347 635,336" fill="#e7f0fb" stroke="#2f6fbc" stroke-width="1.5"/>
+<polygon points="654,325 673,314 673,336 654,347" fill="#d8e9f9" stroke="#2f6fbc" stroke-width="1.5"/>
+<text x="695" y="316" text-anchor="start" class="boxTitle">Scene &amp; object</text>
+<text x="695" y="344" text-anchor="start" class="boxBody"><tspan x="695" dy="0">geometry, material,</tspan><tspan x="695" dy="18">structure</tspan></text>
+<path d="M624 449 C642 420 661 424 672 436 C684 449 690 463 707 458" fill="none" stroke="#7c35cf" stroke-width="2"/>
+<line x1="624" y1="459" x2="699" y2="459" stroke="#7c35cf" stroke-width="1.5"/>
+<text x="695" y="426" text-anchor="start" class="boxTitle" fill="#7c35cf">Contact mechanics</text>
+<text x="695" y="454" text-anchor="start" class="boxBody"><tspan x="695" dy="0">force model,</tspan><tspan x="695" dy="18">friction, deformation</tspan></text>
+<circle cx="651" cy="543" r="27" fill="none" stroke="#ef6a22" stroke-width="2"/><circle cx="651" cy="543" r="16" fill="none" stroke="#ef6a22" stroke-width="2"/><circle cx="651" cy="543" r="5" fill="#ef6a22"/>
+<text x="695" y="536" text-anchor="start" class="boxTitle" fill="#e9501d">Perceptual target</text>
+<text x="695" y="565" text-anchor="start" class="boxBody"><tspan x="695" dy="0">haptic attributes,</tspan><tspan x="695" dy="18">tasks, intents</tspan></text>
+<path d="M624 661 C635 640 648 682 661 655 C674 628 687 679 701 652" fill="none" stroke="#34495e" stroke-width="2"/>
+<text x="695" y="647" text-anchor="start" class="boxTitle">Interaction state</text>
+<text x="695" y="675" text-anchor="start" class="boxBody"><tspan x="695" dy="0">contact state,</tspan><tspan x="695" dy="18">motion, history</tspan></text>
+<line x1="605" y1="725" x2="866" y2="725" stroke="#c9cfd8" stroke-width="1" stroke-dasharray="5,4"/>
+<ellipse cx="641" cy="758" rx="14" ry="6" fill="#eef2f6" stroke="#34495e" stroke-width="1.6"/>
+<path d="M627 758 V786 C627 790 655 790 655 786 V758" fill="#eef2f6" stroke="#34495e" stroke-width="1.6"/>
+<ellipse cx="641" cy="772" rx="14" ry="6" fill="none" stroke="#34495e" stroke-width="1.2"/><ellipse cx="641" cy="785" rx="14" ry="6" fill="none" stroke="#34495e" stroke-width="1.2"/>
+<text x="679" y="758" text-anchor="start" class="small" font-weight="700">Provenance &amp; uncertainty:</text>
+<text x="679" y="781" text-anchor="start" class="small">measured / inferred / generated</text>
+<line x1="289" y1="502" x2="305" y2="502" stroke="#8390a3" stroke-width="4" stroke-linecap="round"/>
+<polygon points="305,502 295.7,505.7 295.7,498.3" fill="#8390a3"/>
+<line x1="886" y1="502" x2="898" y2="502" stroke="#8390a3" stroke-width="4" stroke-linecap="round"/>
+<polygon points="898,502 888.7,505.7 888.7,498.3" fill="#8390a3"/>
+<line x1="1170" y1="502" x2="1182" y2="502" stroke="#8390a3" stroke-width="4" stroke-linecap="round"/>
+<polygon points="1182,502 1172.7,505.7 1172.7,498.3" fill="#8390a3"/>
+<circle cx="931" cy="166" r="19" fill="#3c4859"/>
+<text x="931" y="172" text-anchor="middle" class="sectionNum">4</text>
+<text x="989" y="174" text-anchor="start" class="panelTitle" fill="#7f34d1">Rendering adaptation</text>
+<rect x="920" y="247" width="229" height="125" rx="9" fill="#ffffff" stroke="#2d7df6" stroke-width="1.5"/>
+<circle cx="961" cy="305" r="18" fill="none" stroke="#1e68c7" stroke-width="2"/>
+<line x1="979.0" y1="305.0" x2="986.0" y2="305.0" stroke="#1e68c7" stroke-width="3"/>
+<line x1="973.7" y1="317.7" x2="978.7" y2="322.7" stroke="#1e68c7" stroke-width="3"/>
+<line x1="961.0" y1="323.0" x2="961.0" y2="330.0" stroke="#1e68c7" stroke-width="3"/>
+<line x1="948.3" y1="317.7" x2="943.3" y2="322.7" stroke="#1e68c7" stroke-width="3"/>
+<line x1="943.0" y1="305.0" x2="936.0" y2="305.0" stroke="#1e68c7" stroke-width="3"/>
+<line x1="948.3" y1="292.3" x2="943.3" y2="287.3" stroke="#1e68c7" stroke-width="3"/>
+<line x1="961.0" y1="287.0" x2="961.0" y2="280.0" stroke="#1e68c7" stroke-width="3"/>
+<line x1="973.7" y1="292.3" x2="978.7" y2="287.3" stroke="#1e68c7" stroke-width="3"/>
+<text x="1004" y="280" text-anchor="start" class="boxTitle" fill="#1e5fae">Device profile</text>
+<text x="1004" y="308" text-anchor="start" class="boxBody"><tspan x="1004" dy="0">DoF, range, resolution,</tspan><tspan x="1004" dy="18">bandwidth, latency,</tspan><tspan x="1004" dy="18">safety</tspan></text>
+<line x1="1035" y1="372" x2="1035" y2="432" stroke="#7d8898" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="1035,432 1032.1,424.6 1037.9,424.6" fill="#7d8898"/>
+<rect x="920" y="432" width="229" height="171" rx="9" fill="#fbf8ff" stroke="#8c49e9" stroke-width="1.8"/>
+<circle cx="1026" cy="489" r="16" fill="none" stroke="#8c49e9" stroke-width="3"/><circle cx="1053" cy="469" r="10" fill="none" stroke="#8c49e9" stroke-width="3"/>
+<text x="1035" y="535" text-anchor="middle" class="boxTitle" fill="#7c35cf">Haptic compiler</text>
+<text x="1035" y="566" text-anchor="middle" class="boxBody">Model-to-device</text>
+<text x="1035" y="586" text-anchor="middle" class="boxBody">adaptation</text>
+<line x1="1035" y1="651" x2="1035" y2="604" stroke="#7d8898" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="1035,604 1037.9,611.4 1032.1,611.4" fill="#7d8898"/>
+<rect x="913" y="651" width="245" height="169" rx="9" fill="#ffffff" stroke="#9ca8b8" stroke-width="1.3" stroke-dasharray="6,5"/>
+<path d="M947 691 L966 682 L985 691 V708 C985 725 974 738 966 743 C958 738 947 725 947 708 Z" fill="none" stroke="#48586d" stroke-width="2"/>
+<polyline points="958,708 964,714 975,701" fill="none" stroke="#48586d" stroke-width="2"/>
+<text x="1006" y="687" text-anchor="start" class="boxTitle"><tspan x="1006" dy="0">Physical &amp; perceptual</tspan><tspan x="1006" dy="20">constraints</tspan></text>
+<text x="1006" y="735" text-anchor="start" class="boxBody"><tspan x="1006" dy="0">contact, force limits,</tspan><tspan x="1006" dy="18">friction, passivity,</tspan><tspan x="1006" dy="18">safety</tspan></text>
+<circle cx="1216" cy="166" r="19" fill="#3c4859"/>
+<text x="1216" y="172" text-anchor="middle" class="sectionNum">5</text>
+<text x="1306" y="166" text-anchor="middle" class="panelTitle" fill="#1766cf">Device-specific</text>
+<text x="1306" y="190" text-anchor="middle" class="panelTitle" fill="#1766cf">output</text>
+<rect x="1211" y="217" width="194" height="148" rx="9" fill="#ffffff" stroke="#79b2ef" stroke-width="1.3"/>
+<text x="1262" y="251" text-anchor="start" class="boxTitle" fill="#0d4d98">Wearable</text>
+<rect x="1211" y="389" width="194" height="148" rx="9" fill="#ffffff" stroke="#79b2ef" stroke-width="1.3"/>
+<text x="1262" y="423" text-anchor="start" class="boxTitle" fill="#0d4d98">Surface</text>
+<rect x="1211" y="561" width="194" height="148" rx="9" fill="#ffffff" stroke="#79b2ef" stroke-width="1.3"/>
+<text x="1262" y="595" text-anchor="start" class="boxTitle" fill="#0d4d98">Force-feedback</text>
+<rect x="1211" y="733" width="194" height="148" rx="9" fill="#ffffff" stroke="#79b2ef" stroke-width="1.3"/>
+<text x="1262" y="767" text-anchor="start" class="boxTitle" fill="#0d4d98">Ambient</text>
+<path d="M1260 307 C1260 279 1269 252 1275 253 C1281 254 1278 274 1279 280 C1286 258 1293 254 1298 258 C1303 262 1294 281 1294 286 C1303 267 1312 265 1316 271 C1321 278 1310 289 1308 295 C1320 285 1329 286 1330 294 C1332 303 1321 311 1315 316 C1325 317 1335 322 1332 330 C1328 339 1308 334 1298 332 C1284 330 1268 326 1260 307 Z" fill="none" stroke="#111827" stroke-width="2"/>
+<polygon points="1255,474 1315,450 1365,472 1304,498" fill="#eef2f6" stroke="#243447" stroke-width="1.5"/><line x1="1300" y1="429" x2="1332" y2="479" stroke="#243447" stroke-width="2"/><circle cx="1329" cy="477" r="14" fill="none" stroke="#8c49e9" stroke-width="1.5"/>
+<rect x="1258" y="667" width="54" height="16" fill="#eef2f6" stroke="#243447" stroke-width="1.4"/><circle cx="1285" cy="629" r="16" fill="none" stroke="#243447" stroke-width="2"/><line x1="1285" y1="645" x2="1285" y2="667" stroke="#243447" stroke-width="4"/><line x1="1301" y1="629" x2="1348" y2="595" stroke="#243447" stroke-width="6" stroke-linecap="round"/><circle cx="1352" cy="592" r="12" fill="#ffffff" stroke="#243447" stroke-width="2"/>
+<rect x="1266" y="786" width="67" height="48" rx="9" fill="#f5f7fa" stroke="#243447" stroke-width="1.6"/>
+<path d="M1246 806 Q1237 810 1246 814 M1352 806 Q1361 810 1352 814" fill="none" stroke="#5b6b7f" stroke-width="1.4"/>
+<rect x="18" y="875" width="1412" height="172" rx="9" fill="#ffffff" stroke="#b8c0cc" stroke-width="1.1" stroke-dasharray="6,4"/>
+<rect x="31" y="896" width="121" height="128" rx="9" fill="#f1f3f6" stroke="#f1f3f6" stroke-width="0"/>
+<text x="92" y="939" text-anchor="middle" class="evalTitle"><tspan x="92" dy="0">Evaluation</tspan><tspan x="92" dy="25">criteria</tspan></text>
+<line x1="166" y1="894" x2="166" y2="1027" stroke="#c0c7d0" stroke-width="1"/>
+<circle cx="216" cy="923" r="15" fill="#ffffff" stroke="#26364c" stroke-width="1.7"/>
+<polyline points="210,923 215,928 223,917" fill="none" stroke="#26364c" stroke-width="1.7"/>
+<text x="242" y="929" text-anchor="start" class="evalTitle">Completeness</text>
+<text x="242" y="959" text-anchor="start" class="evalBody"><tspan x="242" dy="0">coverage of objects,</tspan><tspan x="242" dy="18">materials, and interactions</tspan></text>
+<circle cx="440" cy="923" r="15" fill="#ffffff" stroke="#26364c" stroke-width="1.7"/>
+<path d="M431,923 Q440,915 449,923 Q440,931 431,923 Z" fill="none" stroke="#26364c" stroke-width="1.3"/><circle cx="440" cy="923" r="3" fill="#26364c"/>
+<text x="466" y="929" text-anchor="start" class="evalTitle">Perceptual validity</text>
+<text x="466" y="959" text-anchor="start" class="evalBody"><tspan x="466" dy="0">alignment with human</tspan><tspan x="466" dy="18">haptic perception</tspan></text>
+<circle cx="684" cy="923" r="15" fill="#ffffff" stroke="#26364c" stroke-width="1.7"/>
+<line x1="684" y1="923" x2="691" y2="915" stroke="#26364c" stroke-width="1.7"/>
+<text x="710" y="929" text-anchor="start" class="evalTitle">Real-time performance</text>
+<text x="710" y="959" text-anchor="start" class="evalBody"><tspan x="710" dy="0">low latency, stable</tspan><tspan x="710" dy="18">rendering</tspan></text>
+<circle cx="948" cy="923" r="15" fill="#ffffff" stroke="#26364c" stroke-width="1.7"/>
+<polygon points="940,920 948,914 956,920 948,926" fill="none" stroke="#26364c" stroke-width="1.3"/>
+<text x="974" y="929" text-anchor="start" class="evalTitle">Portability</text>
+<text x="974" y="959" text-anchor="start" class="evalBody"><tspan x="974" dy="0">transfer across</tspan><tspan x="974" dy="18">devices and platforms</tspan></text>
+<circle cx="1203" cy="923" r="15" fill="#ffffff" stroke="#26364c" stroke-width="1.7"/>
+<line x1="1203" y1="915" x2="1203" y2="931" stroke="#26364c" stroke-width="1.3"/>
+<text x="1229" y="929" text-anchor="start" class="evalTitle">Physical consistency</text>
+<text x="1229" y="959" text-anchor="start" class="evalBody"><tspan x="1229" dy="0">stable, plausible,</tspan><tspan x="1229" dy="18">safe interaction</tspan></text>
+</svg>
